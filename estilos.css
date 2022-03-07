@@ -1,0 +1,152 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sectionInicial{
+    height: 300px;
+}
+
+.divsec{
+    width: 700px;
+}
+
+.fondoImagenTitle{
+    background-image: url("./img/fondoTitulo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.fondoColor01{
+    height: 120px;
+    background-color: #FFB0B2;
+}
+.fondoColor02{
+    height: 1650px;
+    background-color: #FFFAD5;
+}
+
+.fondoColor03{
+    height: 250px;
+    background-color: #FFB0B2;
+}
+
+.fondoColor04{
+    height: 120px;
+    background-color: #FFB0B2;
+}
+
+.fondoColor05{
+    height: 1050px;
+    background-color: #FFFAD5;
+}
+
+.textoCentrado{
+    font-style: italic;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.button {
+    background-color: #FFB0B2;
+    border-radius: 40%;
+    color: black;
+    padding: 20px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+.margenH1{
+    margin-left: 7%;
+}
+
+.margenH2{
+    margin-left: 2%;
+}
+
+.listProductos{
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.textFormularios{
+    font-size: large;
+    font-weight: 500;
+}
+
+input[type=text] {
+    background-color: #FFB0B2;
+    width: 30%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  input[type=tel] {
+    background-color: #FFB0B2;
+    width: 30%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  input[type=email] {
+    background-color: #FFB0B2;
+    width: 30%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  input[type=number] {
+    background-color: #FFB0B2;
+    width: 15%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  input[type=reset] {
+    background-color: #FFB0B2;
+    width: 15%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  }
+
+  input[type=submit] {
+    background-color: #FFB0B2;
+    width: 15%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  }
+
+  .select-items {
+    position: absolute;
+    background-color: #FFB0B2;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    padding: 5px 5px;
+  }
+
+  .datos{
+      color: black;
+      font-style: italic;
+      font-size: small;
+      font-weight: 700;
+  }
+
+  .barraNavegacion{
+    width: 500px;
+  }
+
+

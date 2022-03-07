@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale =1.0">
+    <title>Levantar pedido</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <section class="sectionInicial fondoImagenTitle">
+        <div class="container">
+            <img src="./img/logo.png" alt="Helden Pateleria" width="350px">
+        </div>
+    </section>
+    <section class="fondoColor04 container">
+        <div class="barraNavegacion">
+            <a href="./inicio.html">
+                <p class="textoCentrado"><img src="./img/pastelInicio.png" alt="Boton de Inicio" width="75px" height="75px">Inicio</p>
+            </a>
+        </div>
+        <div class="barraNavegacion">
+            <a href="./pedido.html">
+                <p class="textoCentrado"><img src="./img/formulario.png" alt="Boton de Pedido" width="75px" height="75px">Formulario</p>
+            </a>
+        </div>
+        <div class="barraNavegacion">
+            <a href="#Dirección">
+                <p class="textoCentrado"><img src="./img/mapa.png" alt="Boton de Dirección" width="75px" height="75px">Dirección</p>
+            </a>
+        </div>
+    </section>
+    <section class="fondoColor05"><br>
+    <h1>Aquí se hace el pedido</h1>
+
+    <form action="pedido.js">
+        <label class="textFormularios" for="Nombre">Nombre del cliente</label><br>
+        <input type="text"  id = "Nombre" name="Nombre" placeholder="Nombre"><br><br>
+
+        <label class="textFormularios" for="telefono">Teléfono de contacto</label><br>
+        <input type="tel" id="telefono" name="telefono" maxlength="10" placeholder="Teléfono"><br><br>
+
+        <label class="textFormularios" for="correo">Correo de contacto</label><br>
+        <input type="email" id="correo" name="correo" placeholder="Correo"><br><br>
+
+        <label class="textFormularios" for="Cantidad">Cantidad de personas para el pastel</label><br>
+        <input type="number" name="cantidad" id="cantidad" placeholder="10" min="10" max="300"><br><br>
+
+        <label class="textFormularios" for="Cantidad">Cantidad de cupcakes</label><br>
+        <input type="number" name="cantidad" id="cantidad" placeholder="0" min="0" max="300"><br><br>
+
+        <p class="textFormularios">Pasteles</p>
+        <input type="checkbox" id="pastelE" name="pastelE" value="Chocolate">
+        <label class="textFormularios" for="pastelE">Chocolate</label>
+        <input type="checkbox" id="pastelE" name="pastelE" value="Fresa">
+        <label class="textFormularios" for="pastelE">Fresa</label>
+        <input type="checkbox" id="pastelE" name="pastelE" value="Vainilla">
+        <label class="textFormularios" for="pastelE">Vainilla</label>
+
+        <p class="textFormularios">Cupcake</p>
+        <input type="checkbox" id="cupE" name="cupE" value="Chocolate">
+        <label class="textFormularios" for="cupE">Chocolate</label>
+        <input type="number" name="cantidad" id="cantidad" placeholder="0" min="0" max="300"><br>
+        <input type="checkbox" id="cupE" name="cupE" value="Fresa">
+        <label class="textFormularios" for="cupE">Chicle</label>
+        <input type="number" name="cantidad" id="cantidad" placeholder="0" min="0" max="300"><br>
+
+        <p class="textFormularios">¿Con cuál decoración?</p>
+        <input type="checkbox" id="fruta" name="adorno" value="Fruta">
+        <label class="textFormularios" for="fruta">Fruta</label><br>
+        <input type="checkbox" id="chantilly" name="adorno" value="Chantilly">
+        <label class="textFormularios" for="chantilly">Chantilly</label><br>
+        <input type="checkbox" id="personalizada" name="adorno" value="Personalizada">
+        <label class="textFormularios" for="personalzada">Imágen Personalizada</label><br><br>
+
+        <p class="textFormularios">¿Donde quiere recoger?</p>
+        <select class="select-items" name="domicilio&recoger" id="d&r">
+            <option value="Domicilio">Domicilio</option>
+            <option value="Recoger">Recoger en tienda</option>
+        </select>
+        <br><br><br>
+        <input type="reset">
+        <input type="submit">
+        <br><br>
+    </section>
+    <section class="fondoColor03 container" id="Dirección">
+        <div class="divsec">
+            <br><p class="datos">Dirección:</p>
+            <p class="datos">Calle Via Lactea Número 123 Lt 1V Del. Mundo Chocolate entre calle Dulce y calle Azúcar           </p>
+            <p class="datos"> <img src="./img/facebook.png" alt="facebok" width="30px" height="30px">Helden Factory</p>
+            <p class="datos"> <img src="./img/instagram.png" alt="instagram" width="30px" height="30px">Helden Factory</p>
+            <p class="datos"> <img src="./img/email.png" alt="email" width="30px" height="30px">heldenfactory@gmail.com</p>
+        </div>
+        <div class="divsec">
+            <img src="./img/dire.png" alt="dirección" width="500px" height="250px">
+        </div>
+    </section>
+    </form>
+</body>
+</html>
